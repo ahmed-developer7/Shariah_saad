@@ -1,0 +1,88 @@
+{
+    "menu": [
+        {
+            "url": "admin/home",
+            "name": "Home",
+            "icon": "home",
+            "slug": "admin-home"
+        },
+        {
+            "url": "admin/projects",
+            "name": "Certification",
+            "icon": "home",
+            "slug": "admin-projects"
+        },
+        {
+            "url": "admin/observations",
+            "name": "Observations",
+            "icon": "home",
+            "slug": "admin-observations"
+        },
+        {
+            "url": "admin/mm-report",
+            "name": "MM Reports",
+            "icon": "home",
+            "slug": "mm-report"
+        },
+        {
+            "url": "admin/companies",
+            "name": "Client List",
+            "icon": "home",
+            "slug": "admin-companies"
+        },
+        {
+            "url": "admin/excel-export",
+            "name": "Excel Export",
+            "icon": "home",
+            "slug": "excel-export"
+        },
+        {
+            "url": "admin/sectors",
+            "name": "Sector List",
+            "icon": "home",
+            "slug": "admin-sectors"
+        },
+        {
+            "url": "admin/product-classifications",
+            "name": "Product Classifications",
+            "icon": "home",
+            "slug": "admin-product-classifications"
+        },
+        {
+            "url": "admin/product-types",
+            "name": "Product Types",
+            "icon": "home",
+            "slug": "admin-product-types"
+        },
+        {
+            "url": "admin/product-documents",
+            "name": "Product Documents",
+            "icon": "home",
+            "slug": "admin-product-documents"
+        },
+        {
+            "url": "admin/scholars",
+            "name": "Scholar Management",
+            "icon": "home",
+            "slug": "admin-scholars"
+        },
+        {
+            "url": "admin/languages",
+            "name": "Languages",
+            "icon": "home",
+            "slug": "admin-languages"
+        },
+        {
+            "url": "admin/employees",
+            "name": "Employees",
+            "icon": "home",
+            "slug": "admin-employees"
+        },
+        {
+            "url": "admin/users",
+            "name": "Manage Users",
+            "icon": "home",
+            "slug": "admin-users"
+        }
+    ]
+}

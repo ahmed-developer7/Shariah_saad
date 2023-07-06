@@ -1,0 +1,274 @@
+@import './base/bootstrap';
+@import './base/bootstrap-extended';
+@import './base/colors';
+@import './base/components';
+@import './base/pagination';
+
+.custom-block-class {
+    padding-right: 20px;
+    width: auto !important;
+    z-index: 99999;
+    margin-top: 75px;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+
+    .search-bar {
+        width: 75%;
+        //float: right;
+        margin-bottom: 20px;
+    }
+
+    .add-project-btn {
+        float: right;
+    }
+
+    .projects-table {
+        th, td {
+            padding: 0.72rem;
+        }
+    }
+}
+
+.add-project {
+    padding-bottom: 20px;
+
+    .row {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .project-text, .vs__dropdown-toggle {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .submit {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .editSubmit {
+        width: 10%;
+        float: left;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container-xxl {
+        max-width: 100%;
+    }
+}
+
+.main-menu {
+    .navbar-header {
+        height: auto;
+
+        .me-auto {
+            margin: 0 auto;
+        }
+
+        .navbar-brand {
+            .brand-logo {
+                img {
+                    max-width: 72px;
+                }
+            }
+        }
+    }
+}
+
+.mx-datepicker-range {
+    width: 100% !important;
+
+    .mx-input {
+        padding: 23px 20px;
+    }
+}
+
+.custom-btn {
+    width: 78px;
+}
+
+.custom-btn-top {
+    margin-top: 10px;
+}
+
+.user-btn {
+    width: 145px;
+}
+
+.or-text {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.outlook-btn {
+    display: block;
+    cursor: unset;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.login-logo {
+    width: 25%;
+    margin: 1rem auto 2rem auto !important;
+}
+
+.certificate-number-modal {
+    .copy-btn {
+        padding: 0.5rem;
+        background: none;
+        border: none;
+        color: #AD0132;
+
+        &:hover {
+            color: #555;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 7%;
+        color: #AD0132;
+    }
+
+    .input-field {
+        text-align: center;
+        margin-top: 3%;
+
+        input {
+            width:50%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h5 {
+            margin-top: 6%;
+        }
+
+        .btn {
+            width: 50%;
+        }
+    }
+}
+
+.certificate-number-add-modal {
+    .vm--modal {
+        height: 225px !important;
+    }
+}
+
+ .page-break {
+     page-break-after: always;
+ }
+
+.scroll-top {
+    bottom: 3%;
+}
+
+.observation-search {
+    width: 100% !important;
+}
+
+.observation-filter {
+    .vs__dropdown-toggle {
+        padding: 0.41rem 1rem;
+
+        .vs__selected-options {
+            padding: 0;
+
+            .vs__search {
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+.auth-wrapper.auth-basic.signature-pad {
+    .auth-inner {
+        max-width: 30%;
+    }
+
+    .brand-logo {
+        width: 20%
+    }
+}
+
+input[type="checkbox"][id^="myCheckbox"] {
+    display: none;
+}
+
+.myCheckbox1 {
+    border: 1px solid #ddd;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    &:before {
+        background-color: white;
+        color: white;
+        content: " ";
+        display: block;
+        border-radius: 50%;
+        border: 1px solid grey;
+        position: absolute;
+        top: -5px;
+        left: -10px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        transition-duration: 0.4s;
+        transform: scale(0);
+    }
+
+    img {
+        width: 100%;
+        transition-duration: 0.2s;
+        transform-origin: 50% 50%;
+    }
+}
+
+:checked + .myCheckbox1 {
+    border-color: #ddd;
+}
+
+:checked + .myCheckbox1:before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+}
+
+:checked + .myCheckbox1 img {
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3),
+screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2),
+screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3),
+screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    .auth-wrapper.auth-basic.signature-pad {
+        .auth-inner {
+            max-width: 100%;
+        }
+
+        .brand-logo {
+            width: 25%
+        }
+    }
+}
